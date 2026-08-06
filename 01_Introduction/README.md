@@ -21,3 +21,6 @@ In this experiment, we design a simple AND Gate.
 - Learn input and output ports
 - Learn the assign statement
 - Simulate the design using EDA Playground
+## Waveform
+
+![AND Gate Waveform](waveform.png)
