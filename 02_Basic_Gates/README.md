@@ -25,6 +25,6 @@ Y = A | B
 - Write a basic RTL module
 - Write a testbench
 - Analyze simulation waveform
-## Waveform
+## Simulation Waveform
 
-![OR Gate Waveform](waveform.png)
+![OR Gate Waveform](or_gate_waveform.png)
