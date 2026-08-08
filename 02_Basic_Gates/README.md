@@ -28,3 +28,26 @@ Y = A | B
 ## Simulation Waveform
 
 ![OR Gate Waveform](or_gate_waveform.png)
+
+## NOT Gate
+
+### Boolean Expression
+
+Y = ~A
+
+### Truth Table
+
+| A | Y |
+|---|---|
+| 0 | 1 |
+| 1 | 0 |
+
+### Files
+
+- `not_gate.v` - NOT gate RTL design
+- `not_gate_tb.v` - Testbench
+- `not_gate_waveform.png` - Simulation waveform
+
+### Simulation Waveform
+
+![NOT Gate Waveform](not_gate_waveform.png)
