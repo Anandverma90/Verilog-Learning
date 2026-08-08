@@ -59,3 +59,29 @@ Y = ~A
 ### Simulation Waveform
 
 ![NOT Gate Waveform](not_gate_waveform.png)
+
+# Day 2 - NAND Gate
+
+## Objective
+
+Learn the working of a NAND gate and implement it using Verilog HDL.
+
+## Theory
+
+NAND gate is a combination of an **AND gate followed by a NOT gate**.
+
+The output of a NAND gate is LOW (`0`) only when both inputs are HIGH (`1`).
+
+In Verilog, the NAND operation can be written as:
+
+verilog
+assign y = ~(a & b);
+##Truth Table
+| A | B | A & B | Y = ~(A & B) |
+| - | - | ----- | ------------ |
+| 0 | 0 | 0     | 1            |
+| 0 | 1 | 0     | 1            |
+| 1 | 0 | 0     | 1            |
+| 1 | 1 | 1     | 0            |
+### Simulation Waveform
+![NAND Gate Waveform](nand_gate_waveform.png)
