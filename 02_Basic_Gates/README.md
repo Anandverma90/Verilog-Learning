@@ -48,6 +48,14 @@ Y = ~A
 - `not_gate_tb.v` - Testbench
 - `not_gate_waveform.png` - Simulation waveform
 
+## Learning Outcome
+
+- Understand NOT gate operation
+- Learn Verilog NOT operator `~`
+- Write a basic RTL module
+- Write a testbench
+- Generate and analyze simulation waveform
+
 ### Simulation Waveform
 
 ![NOT Gate Waveform](not_gate_waveform.png)
