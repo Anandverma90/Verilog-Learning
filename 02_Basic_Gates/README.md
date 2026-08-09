@@ -141,3 +141,32 @@ Y = ~(A | B)
 ## Summary
 
 A NOR gate produces a HIGH (`1`) output only when **all inputs are LOW (`0`)**. It is a **universal logic gate**, meaning that basic logic gates can be constructed using only NOR gates.
+
+##Day 3 - XOR Gate
+##Objective
+Learn how to design and simulate a basic XOR gate using Verilog HDL.
+
+##Boolean Expression
+
+Y = A ^ B
+
+##Truth Table
+| A | B | Y |
+| - | - | - |
+| 0 | 0 | 0 |
+| 0 | 1 | 1 |
+| 1 | 0 | 1 |
+| 1 | 1 | 0 |
+
+##Files
+xor_gate.v - XOR gate RTL design
+xor_gate_tb.v - Testbench
+xor_gate_waveform.png - Simulation waveform
+##Learning Outcome
+Understand XOR gate operation
+Learn Verilog XOR operator ^
+Write a basic RTL module
+Write a testbench
+Generate and analyze simulation waveform
+##Simulation Waveform
+![xor Gate Waveform](xor_gate_waveform.png)
