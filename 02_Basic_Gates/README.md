@@ -163,12 +163,12 @@ xor_gate.v - XOR gate RTL design
 xor_gate_tb.v - Testbench
 xor_gate_waveform.png - Simulation waveform  
 
-##Learning Outcome
+## Learning Outcome
 Understand XOR gate operation
 Learn Verilog XOR operator ^
 Write a basic RTL module
 Write a testbench
 Generate and analyze simulation waveform
 
-##Simulation Waveform
+## Simulation Waveform
 ![xor Gate Waveform](xor_gate_waveform.png)
