@@ -111,12 +111,11 @@ Y = ~(A | B)
 ```
 
 ## Truth Table
-| A | B | A|B | Y=~(A|B)|
-| 0 | 0 | 0   | 1       |
-| 0 | 1 | 1   | 0       |
-| 1 | 0 | 1   | 0       |
-| 1 | 1 | 1   | 0       |
-
+A	B	Y = A ^ B
+0	0	0
+0	1	1
+1	0	1
+1	1	0
 ## Simulation Waveform
 
 ![NOR Gate Waveform](nor_gate_waveform.png)
