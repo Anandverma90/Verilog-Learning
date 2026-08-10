@@ -111,13 +111,11 @@ Y = ~(A | B)
 ```
 
 ## Truth Table
-
 | A | B | A|B | Y=~(A|B)|
 | 0 | 0 | 0   | 1       |
 | 0 | 1 | 1   | 0       |
 | 1 | 0 | 1   | 0       |
 | 1 | 1 | 1   | 0       |
-
 
 ## Simulation Waveform
 
@@ -159,9 +157,9 @@ Y = A ^ B
 | 1 | 1 | 0 |
 
 ## Files
-xor_gate.v - XOR gate RTL design
-xor_gate_tb.v - Testbench
-xor_gate_waveform.png - Simulation waveform  
+`xor_gate.v` - XOR gate RTL design.
+`xor_gate_tb.v` - Testbench.
+`xor_gate_waveform.png` - Simulation waveform . 
 
 ## Learning Outcome
 Understand XOR gate operation
@@ -172,3 +170,55 @@ Generate and analyze simulation waveform
 
 ## Simulation Waveform
 ![xor Gate Waveform](xor_gate_waveform.png)
+
+# Day 3 - XNOR Gate
+
+## Objective
+
+Learn how to design and simulate a basic XNOR gate using Verilog HDL.
+
+## Theory
+
+XNOR (Exclusive-NOR) gate is the complement of an XOR gate. The output of an XNOR gate is HIGH (`1`) when both inputs are the same and LOW (`0`) when the inputs are different.
+
+In Verilog, the XNOR operation can be written as:
+
+```verilog
+assign y = ~(a ^ b);
+```
+
+## Boolean Expression
+
+```text
+Y = ~(A ^ B)
+```
+
+## Truth Table
+
+| A | B | A ^ B | Y = ~(A ^ B) |
+| - | - | ----- | ------------ |
+| 0 | 0 | 0     | 1            |
+| 0 | 1 | 1     | 0            |
+| 1 | 0 | 1     | 0            |
+| 1 | 1 | 0     | 1            |
+
+## Simulation Waveform
+
+## Learning Outcome
+
+* Understand XNOR gate operation.
+* Learn the Verilog XOR operator `^`.
+* Learn how to combine the XOR operator with the NOT operator `~`.
+* Write a basic XNOR gate RTL module.
+* Write a Verilog testbench.
+* Generate and analyze the simulation waveform.
+
+## Files
+
+* `xnor_gate.v` - XNOR gate RTL design
+* `xnor_gate_tb.v` - Testbench
+* `xnor_gate_waveform.png` - Simulation waveform
+
+## Summary
+
+An XNOR gate produces a HIGH (`1`) output when **both inputs are the same**. It produces a LOW (`0`) output when the inputs are different. XNOR gates are commonly used in **equality checking and digital comparison circuits**.
