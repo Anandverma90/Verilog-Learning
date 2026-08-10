@@ -101,11 +101,12 @@ The bitwise OR operation performs an OR operation on each corresponding bit of t
 
 ## Truth Table
 
-A	B	Y = A | B
-0	0	0
-0	1	1
-1	0	1
-1	1	1
+| A | B | Y |
+|---|---|---|
+| 0 | 0 | 0 |
+| 0 | 1 | 1 |
+| 1 | 0 | 1 |
+| 1 | 1 | 1 |
 
 ### 4-bit Example
 
