@@ -172,3 +172,90 @@ For example:
 ```
 
 This demonstrates how the Verilog bitwise OR operator can be used to perform logic operations on multi-bit signals.
+# Bitwise XOR Operator
+
+## Objective
+
+Learn how to use the **bitwise XOR (`^`) operator** in Verilog HDL with 4-bit inputs.
+
+## Boolean Expression
+
+```text
+Y = A ^ B
+```
+
+The bitwise XOR operation performs an exclusive-OR operation on each corresponding bit of the two input vectors.
+
+## Truth Table
+
+| A | B | Y = A ^ B |
+| - | - | --------- |
+| 0 | 0 | 0         |
+| 0 | 1 | 1         |
+| 1 | 0 | 1         |
+| 1 | 1 | 0         |
+
+### 4-bit Example
+
+```text
+A = 1010
+B = 1100
+---------
+Y = 0110
+```
+
+## Verilog Code
+
+The 4-bit bitwise XOR operation is implemented using:
+
+```verilog
+assign y = a ^ b;
+```
+
+## Files
+
+* `bitwise_xor.v` - Bitwise XOR RTL design
+* `bitwise_xor_tb.v` - Testbench for verifying the design
+* `bitwise_xor_waveform.png` - Simulation waveform
+* `README.md` - Project documentation
+
+## Test Cases
+
+| A    | B    | Y = A ^ B |
+| ---- | ---- | --------- |
+| 0000 | 0000 | 0000      |
+| 1010 | 1100 | 0110      |
+| 1111 | 1010 | 0101      |
+| 1111 | 1111 | 0000      |
+| 0101 | 0011 | 0110      |
+
+## Simulation Waveform
+
+The waveform shows the changes in the input signals `a` and `b` and the corresponding output `y` during simulation.
+
+![Bitwise XOR Waveform](bitwise_xor_waveform.png)
+
+## Learning Outcome
+
+* Understand the bitwise XOR operation.
+* Learn the Verilog bitwise XOR operator `^`.
+* Understand operations on 4-bit vectors.
+* Write a basic RTL module.
+* Write a Verilog testbench.
+* Generate a VCD waveform file.
+* Analyze the simulation waveform.
+
+## Summary
+
+The **bitwise XOR operator (`^`)** compares corresponding bits of two input vectors. The output bit is `1` when the corresponding input bits are **different**, and `0` when they are the same.
+
+For example:
+
+```text
+1010
+1100
+----
+0110
+```
+
+This demonstrates how the Verilog bitwise XOR operator can be used to perform exclusive-OR operations on multi-bit signals.
