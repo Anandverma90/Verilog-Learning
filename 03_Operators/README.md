@@ -45,7 +45,6 @@ assign y = a & b;
 * `README.md` - Project documentation
 
 ## Test Cases
-
 | A    | B    | Y = A & B |
 | ---- | ---- | --------- |
 | 0000 | 0000 | 0000      |
