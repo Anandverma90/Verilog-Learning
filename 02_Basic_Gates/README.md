@@ -111,11 +111,13 @@ Y = ~(A | B)
 ```
 
 ## Truth Table
-A	B	Y = A ^ B
-0	0	0
-0	1	1
-1	0	1
-1	1	0
+| A | B | Y     |
+| - | - | ----- |
+| 0 | 0 | 1     |
+| 0 | 1 | 0     |
+| 1 | 0 | 0     |
+| 1 | 1 | 0     |
+
 ## Simulation Waveform
 
 ![NOR Gate Waveform](nor_gate_waveform.png)
@@ -202,7 +204,7 @@ Y = ~(A ^ B)
 | 1 | 1 | 0     | 1            |
 
 ## Simulation Waveform
-
+![XNOR Gate Waveform](xnor_gate_waveform.png)
 ## Learning Outcome
 
 * Understand XNOR gate operation.
